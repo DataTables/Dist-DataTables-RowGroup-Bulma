@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/rowGroup.bulma.js",
+        "js/rowGroup.bulma.min.js"
+    ],
+    "css": [
+        "css/rowGroup.bulma.css",
+        "css/rowGroup.bulma.min.css"
+    ],
+    "types": [
+        "types/rowGroup.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/RowGroup",
+    "last-tag": "1.1.2"
+}
