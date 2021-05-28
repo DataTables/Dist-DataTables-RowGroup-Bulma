@@ -19,7 +19,7 @@ npm install datatables.net-rowgroup-bm
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-rowgroup-bm}' )( window, $ );
+var dt = require( 'datatables.net-rowgroup-bm' )( window, $ );
 ```
 
 ### bower
