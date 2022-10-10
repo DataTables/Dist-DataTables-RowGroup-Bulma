@@ -2,12 +2,14 @@
     "name": "datatables.net-rowgroup-bm",
     "description": "RowGroup for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/rowGroup.bulma.js",
+    "module": "js/rowGroup.bulma.mjs",
     "style": "css/rowGroup.bulma.css",
     "types": "./types/rowGroup.bulma.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
