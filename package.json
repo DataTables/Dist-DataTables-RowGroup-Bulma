@@ -4,7 +4,7 @@
     "main": "js/rowGroup.bulma.js",
     "module": "js/rowGroup.bulma.mjs",
     "style": "css/rowGroup.bulma.css",
-    "types": "./types/rowGroup.bulma.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
