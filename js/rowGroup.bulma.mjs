@@ -4,7 +4,7 @@
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bm';
-import 'datatables.net-rowgroup';
+import RowGroup from 'datatables.net-rowgroup';
 
 
 
