@@ -5,7 +5,7 @@
     "module": "js/rowGroup.bulma.mjs",
     "style": "css/rowGroup.bulma.css",
     "types": "./types/rowGroup.bulma.d.ts",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": "1.5.0",
-        "datatables.net-bm": ">=1.11.0",
+        "datatables.net-rowgroup": "1.5.1",
+        "datatables.net-bm": "^2",
         "jquery": ">=1.7"
     },
     "moduleType": [
