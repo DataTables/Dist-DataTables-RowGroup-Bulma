@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowgroup-bm",
     "description": "RowGroup for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/rowGroup.bulma.js",
-    "module": "js/rowGroup.bulma.mjs",
-    "style": "css/rowGroup.bulma.css",
+    "main": "./js/rowGroup.bulma.js",
+    "module": "./js/rowGroup.bulma.mjs",
+    "style": "./css/rowGroup.bulma.css",
     "types": "./types/rowGroup.bulma.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowGroup",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowGroup.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowGroup.bulma.d.ts",
+            "import": "./js/rowGroup.bulma.mjs",
+            "default": "./js/rowGroup.bulma.mjs",
+            "require": "./js/rowGroup.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowGroup.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
