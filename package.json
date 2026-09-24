@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/rowGroup.bulma.d.ts",
+            "style": "./css/rowGroup.bulma.css",
             "import": "./js/rowGroup.bulma.mjs",
-            "default": "./js/rowGroup.bulma.mjs",
-            "require": "./js/rowGroup.bulma.js"
+            "require": "./js/rowGroup.bulma.js",
+            "default": "./js/rowGroup.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
